@@ -24,7 +24,7 @@ import {isServer} from './utils/isServer';
 
 export * from './types';
 
-export {useElements, Elements, ElementsConsumer} from './components/Elements';
+export {useElements, Elements, ElementsConsumer, ElementsProvider } from './components/Elements';
 
 export {
   useCustomCheckout,

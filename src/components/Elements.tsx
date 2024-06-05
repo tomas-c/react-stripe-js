@@ -199,3 +199,5 @@ export const ElementsConsumer: FunctionComponent<ElementsConsumerProps> = ({
 ElementsConsumer.propTypes = {
   children: PropTypes.func.isRequired,
 };
+
+export const ElementsProvider = ElementsContext.Provider;
